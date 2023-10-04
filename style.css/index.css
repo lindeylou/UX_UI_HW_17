@@ -14,7 +14,8 @@
     
 }
 .nav-bar p {
-    margin: 10px;
+    margin-right: 20px;
+    margin: 10px 10px 10px 55px;
     max-width: fit-content;
     border: 2px solid transparent;
     float: left;
@@ -25,7 +26,7 @@
     list-style-type: none;
     max-width: fit-content;
     float: right;
-    margin: 10px;
+    margin: 10px 50px 10px 10px;
     padding: 0;
     overflow: hidden;
     font-size: 25px;
@@ -61,33 +62,35 @@ div{
     margin: -5px;
 
 }
+.intro {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
 .pictureofme{
     float: right;
     width: 587px;
     padding: 0px 0px 0px 0px;
     margin: 0px 60px 45px 0px;
-    height: auto;
+    height: 1009px;
 }
-.pictureofme img{
-    padding: -5px;
-    margin: -5px;
-    border: 2px solid transparent;
- 
-}
+
 .child {
     position: relative;
-    border: 2px solid purple;
+    border: 2px solid transparent;
     padding-top: 0px;
-    margin-top: 0%;
-    margin-bottom: 0%;
+   margin: -7px;
+   padding: -50px;
 }
 .parent {
     position: relative;
-    border: 2px solid green;
-    padding-top: 0px;
-    margin-top: 0px;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
+    border: 2px solid transparent;
+    padding: 0px;
+    margin: -10px;
+    left: 8px;
+    bottom: 2px;
+    
+  
 }
 
 .skills{
@@ -104,28 +107,37 @@ div{
     padding: -3px;
 }
 .myskills{
+    margin-top: 3%;
+    margin-bottom: 0%;
     padding-left: 50px;
 }
 .skilllist{
+    margin-top: 0%;
     padding-left: 100px;
 }
 .tools{
     float: right;
     width: 587px;
     margin: 0px 60px 45px 0px;
-    padding: o;
+    padding: 0;
 }
 .tools img{
     margin: -5px;
     padding: -5px;
 }
 .toolname {
+    margin-top: 3%;
+    margin-bottom: 0%;
     padding-left: 50px;
-    padding-top: 0;
+    padding-top: -20;
+    padding-bottom: 0px;
+    border: 2px solid transparent
 }
 .toollist{
+    margin-top: 0;
     padding-left: 100px;
-    padding-top: 0px;
+    border: 2px solid transparent;
+    top: -20px;
 }
 .footer {
     display: inline-block;
@@ -135,7 +147,7 @@ div{
     bottom: 0;
     margin: 0;
     border: 2px solid transparent;
-    padding: 0 0 40 0;
+    padding: 45 0 40 0;
     list-style-type: none;
     height: auto;
     align-items: end;
@@ -149,27 +161,35 @@ div{
     display: flex;
     justify-content: space-evenly;
     margin: 20px;
-    padding: 0;
+    padding-top: 80px;
     border: 2px solid transparent;
+    font-size: 25px;
 }
 .contactmain {
     align-content: center;
     margin-left: 80px;
     margin-right: 80px;
-    border: 2 px solid orange;
+    border: 2 px solid blue;
+    width: 1269px;
 
 }
 .contacttext{
+    display: inline-block;
     text-align: center;
     font-size: 35px;
+    text-wrap: wrap;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid transparent
 }
 .contactimg {
     display: block;
+    width: fit-content;
     margin-left: auto;
     margin-right: auto;
-    width: auto;
     margin-top: 80px;
     margin-bottom: 80px;
+    border: 2px solid transparent
 }
 .social {
     display: block;
@@ -179,8 +199,83 @@ div{
     margin-bottom: 20px;
 }
 .longtabc {
-    display: block;
-   margin: -10px;
-   padding: -5px;
+   margin: -5px;
+   padding: 0px;
+   width: 1286px;
+   border: 2px solid transparent;
+   margin-left: -13px;
+   margin-right: 0%;
+   margin-top: -7px;
+}
+.w1 {
+    display: inline-block;
+    float: left;
+    width: 590px;
+    margin: 0px 0px 45px 60px;
+    font-size: 25px;
+    height: 850px
+}
+.w1text {
+    margin: 15px;
+}
+.w1t{
+margin-top: -5px;
+padding: 0;
+width: 603px;
+margin-left: -5px;
+}
+.w1img{
+    margin-top: -12px;
+    padding: 0;
+}
+.w2 {
+    display: inline-block;
+    float: right;
+    width: 590px;
+    margin: 0px 60px 45px 0px;
+    font-size: 25px;
+    height: 850px;
+}
+.w2text{
+    margin: 15px;
+}
+.w2t {
+margin-top: -5px;
+padding: 0%;
+width: 603px;
+margin-left: -5px;
+}
+.w2img{
+    margin-top: -12px;
+   
 
+}
+.w3 {
+    display: inline-block;
+margin: 45px 60px 45px 90px;
+border: solid 2 px orange;
+font-size: 25px;
+width: 1242px;
+height: 474px;
+}
+.w3text{
+    float: right;
+    text-align: right;
+    margin-left: 700px;
+    margin-right: 10px;
+    margin-top: -400px;
+    margin-bottom: 0px;
+    top: 500px;
+    bottom: -500px;
+
+}
+.w3img {
+    border: 2px solid transparent
+    margin: 0
+}
+.ltw3 {
+    margin-bottom: -7px;
+    margin-left: -10px;
+    margin-right: 20px;
+    margin-top: -5px;
 }
